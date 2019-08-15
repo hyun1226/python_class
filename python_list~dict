@@ -13,6 +13,17 @@ tuple -> ()
 
 set -> {}
  - 위치가 지정 x
+ - 중복값은 하나의 값만 갖음
 
 dictionary(dict) -> {key:value}
  - key와 value가 쌍으로 이루어져 있음
+ - key는 상수만 들어갈 수 있음
+ - value는 아무거나 들어갈 수 있음
+ 
+** list에서 위치와 값 한번에 가져오기 **
+ - enumerate(리스트명)
+  
+** dictionary 메소드 **
+ - dict명.keys() : 모든 key값 가져오기
+ - dict명.values() : 모든 value값 가져오기
+ - dict명.items() : 모든 key값, value값 가져오기
